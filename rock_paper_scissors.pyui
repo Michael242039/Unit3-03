@@ -1,0 +1,190 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 0}, {540, 548}}",
+        "class" : "ImageView",
+        "attributes" : {
+          "frame" : "{{220, 220}, {100, 100}}",
+          "class" : "ImageView",
+          "name" : "background",
+          "uuid" : "66FEA962-B822-44D8-9A1C-C8F1AB7CC8DB"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{137.5, 466}, {80, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "border_width" : 3,
+          "action" : "choice_touch_up_inside",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "title" : "ROCK",
+          "uuid" : "B0BD9B9D-D2A1-4CD5-8761-EB5E8BC04E20",
+          "background_color" : "RGBA(0.306604,0.306604,0.306604,1.000000)",
+          "class" : "Button",
+          "border_color" : "RGBA(0.257075,0.257075,0.257075,1.000000)",
+          "corner_radius" : 10,
+          "name" : "rock_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{225.5, 466}, {80, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "border_width" : 3,
+          "action" : "choice_touch_up_inside",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "title" : "PAPER",
+          "uuid" : "B0BD9B9D-D2A1-4CD5-8761-EB5E8BC04E20",
+          "background_color" : "RGBA(0.306604,0.306604,0.306604,1.000000)",
+          "class" : "Button",
+          "border_color" : "RGBA(0.257075,0.257075,0.257075,1.000000)",
+          "corner_radius" : 10,
+          "name" : "paper_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{313.5, 466}, {80, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "border_width" : 3,
+          "action" : "choice_touch_up_inside",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "title" : "SCISSORS",
+          "uuid" : "B0BD9B9D-D2A1-4CD5-8761-EB5E8BC04E20",
+          "background_color" : "RGBA(0.306604,0.306604,0.306604,1.000000)",
+          "class" : "Button",
+          "border_color" : "RGBA(0.257075,0.257075,0.257075,1.000000)",
+          "corner_radius" : 10,
+          "name" : "scissors_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{194, 213}, {150, 96}}",
+        "class" : "Label",
+        "attributes" : {
+          "uuid" : "85B94952-E07F-42D5-B72F-26F9A1838477",
+          "corner_radius" : 10,
+          "background_color" : "RGBA(0.304245,0.304245,0.304245,1.000000)",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "border_color" : "RGBA(0.254717,0.254717,0.254717,1.000000)",
+          "border_width" : 3,
+          "alignment" : "center",
+          "text" : "...",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "font_name" : "AmericanTypewriter-Bold",
+          "class" : "Label",
+          "name" : "outcome_label",
+          "font_size" : 28
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{110, 80}, {320, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "uuid" : "F41D817B-32FC-4055-96E0-280BA495F129",
+          "corner_radius" : 10,
+          "background_color" : "RGBA(0.304245,0.304245,0.304245,1.000000)",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "border_color" : "RGBA(0.247642,0.247642,0.247642,1.000000)",
+          "border_width" : 3,
+          "alignment" : "center",
+          "text" : "The opponent chooses...",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "font_name" : "AmericanTypewriter",
+          "class" : "Label",
+          "name" : "opponent_choice_label",
+          "font_size" : 18
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{194, 426}, {150, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "uuid" : "41B9AFD3-B5BF-4818-AED1-29F43967C031",
+          "corner_radius" : 10,
+          "background_color" : "RGBA(0.308962,0.308962,0.308962,1.000000)",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "border_color" : "RGBA(0.250000,0.250000,0.250000,1.000000)",
+          "border_width" : 3,
+          "alignment" : "center",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "text" : "Choose wisely...",
+          "font_name" : "AmericanTypewriter",
+          "class" : "Label",
+          "name" : "instructions_label",
+          "font_size" : 18
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{225.5, 119}, {86, 86}}",
+        "class" : "ImageView",
+        "attributes" : {
+          "frame" : "{{220, 220}, {100, 100}}",
+          "class" : "ImageView",
+          "name" : "opponent_image",
+          "uuid" : "C5B0DF92-2676-48A4-B2CF-6AAC5874E397"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{225.5, 317}, {93, 93}}",
+        "class" : "ImageView",
+        "attributes" : {
+          "frame" : "{{220, 220}, {100, 100}}",
+          "class" : "ImageView",
+          "name" : "user_image",
+          "uuid" : "8C9D1CF3-012D-4430-BCFD-2347EA4B37D5"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {540, 540}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
